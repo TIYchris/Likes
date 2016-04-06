@@ -1,0 +1,40 @@
+html {
+    box-sizing: border-box;
+}
+* {
+    box-sizing: inherit;
+}
+*:before {
+    box-sizing: inherit;
+}
+*:after {
+    box-sizing: inherit;
+}
+.like{
+	margin: 0 auto;
+	width: 600px;
+	margin-top: 300px;
+}
+
+.likeButton{
+	border:none;
+	height:150px;
+	width:400px;
+	border-radius: 12px;
+	background-color: #2B96DD;
+	color:white;
+	outline: none;
+	border-bottom:7px solid #217EBA;
+}
+
+.likeButton:active {
+	height: 140px;
+	width: 400px;
+	border-radius: 12px;
+	background-color: #2B96DD;
+	color:white;
+	outline: none;
+	border-bottom: none;
+	margin-top: 10px;
+}
+
